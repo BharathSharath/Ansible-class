@@ -5,22 +5,22 @@ hosts (2):
 172.31.41.240 
 172.31.41.248 
 
-[ansible] $ ansible anshu –-list-hosts check nodes inside group=anshu
+[ansible] $ ansible qspiders –-list-hosts check nodes inside group=anshu
 hosts (2): 
 172.31.41.240 
 172.31.41.248 
 
-[ansible] $ ansible anshu[0] –-list-hosts 
+[ansible] $ ansible qspiders[0] –-list-hosts 
 hosts (1): 
 172.31.41.240 
 
-[ansible] $ ansible anshu[1] –-list-hosts 
+[ansible] $ ansible qspiders[1] –-list-hosts 
 hosts (1): 
 172.31.41.248 
 
-[ansible] $ ansible anshu[-1] –-list-hosts 
+[ansible] $ ansible qspiders[-1] –-list-hosts 
 hosts (1): 
 172.31.41.248 
 
-[ansible] $ ansible anshu[3] –-list-host 
+[ansible] $ ansible qspiders[3] –-list-host 
 [WARNING]: No host matched, nothing to do 
