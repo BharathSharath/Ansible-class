@@ -1,7 +1,7 @@
 [ansible@Ip]$ Vi task.yml 
 
 --- #My Task Playbook
-- hosts: anshu
+- hosts: qspiders
   user: ansible
   become: yes
   connection: ssh
@@ -16,7 +16,7 @@
 [ansible@Ip]$ Vi vars.yml 
 
 --- #My variable Playbook
-- hosts: anshu
+- hosts: qspiders
   user: ansible
   become: yes
   connection: ssh
@@ -33,7 +33,7 @@
 [ansible@Ip]$ Vi handlers.yml 
 
 --- #My handlers Playbook
-- hosts: anshu
+- hosts: qspiders
   user: ansible
   become: yes
   connection: ssh
@@ -50,7 +50,7 @@
 [ansible@Ip]$ Vi loops.yml 
 
 --- #My Loops Playbook
-- hosts: anshu
+- hosts: qspiders
   user: ansible
   become: yes
   connection: ssh
@@ -69,7 +69,7 @@
 [ansible@Ip]$ Vi condition.yml 
 
 --- #My Conditional Playbook apt-get=debian yum=RedHat
-- hosts: anshu
+- hosts: qspiders
   user: ansible
   become: yes
   connection: ssh
